@@ -7,62 +7,52 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-
   <title>Frontend Mentor | Social links profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
 
-
   <main>
     <section class="social-links-profile">
-      <div class="wrapper">
-        <div class="social-links-profile__avatar">
-          <img src="./assets/images/avatar-jessica.jpeg" alt="Jessica Randal - avatar photo">
-        </div>
-        <div class="social-links-profile__name">
-          <h1>Jessica Randall</h1>
-        </div>
-        <div class="social-links-profile__localization">
-          <h2>London, United Kingdom</h2>
-        </div>
-        <div class="social-links-profile__description">
-          <p>"Front-end developer and avid reader."</p>
-        </div>
-        <div class="social-links">
-          <div class="social-link">
-            <img src="./assets/images/icons/github.svg" alt="GitHub icon">
-            <a href="#">GitHub</a>
-          </div>
-          <div class="social-link">
-            <img src="./assets/images/icons/heart.svg" alt="Heart Icon (Frontend Mentor)">
-            <a href="#">Frontend Mentor</a>
-          </div>
-          <div class="social-link">
-            <img src="./assets/images/icons/linkedin.svg" alt="LinkedIn Icon">
-            <a href="#">LinkedIn</a>
-          </div>
-          <div class="social-link">
-            <img src="./assets/images/icons/twitter.svg" alt="Twitter icon">
-            <a href="#">Twitter</a>
-          </div>
-          <div class="social-link">
-            <img src="./assets/images/icons/instagram.svg" alt="Instagram icon">
-            <a href="#">Instagram</a>
-          </div>
-        </div>
+      <img src="./assets/images/avatar-jessica.jpeg" alt="Jessica Randal - avatar photo"
+        class="social-links-profile__avatar-photo">
+      <div class="social-links-profile__name">
+        <h1>Jessica Randall</h1>
+      </div>
+      <div class="social-links-profile__localization">
+        <h2>London, United Kingdom</h2>
+      </div>
+      <div class="social-links-profile__description">
+        <p>"Front-end developer and avid reader."</p>
+      </div>
+      <div class="social-links">
+        <a href="#" class="social-link">
+          <img class="social-link__image" src="./assets/images/icons/github.svg" alt="GitHub icon">
+          <p>GitHub</p>
+        </a>
+        <a href="#" class="social-link">
+          <img class="social-link__image" src="./assets/images/icons/heart.svg" alt="Heart icon">
+          <p>Frontend Mentor</p>
+        </a>
+        <a href="#" class="social-link">
+          <img class="social-link__image" src="./assets/images/icons/linkedin.svg" alt="LinkedIn icon">
+          <p>LinkedIn</p>
+        </a>
+        <a href="#" class="social-link">
+          <img class="social-link__image" src="./assets/images/icons/twitter.svg" alt="Twitter icon">
+          <p>Twitter</p>
+        </a>
+        <a href="#" class="social-link">
+          <img class="social-link__image" src="./assets/images/icons/instagram.svg" alt="Instagram icon">
+          <p>Instagram</p>
+        </a>
       </div>
     </section>
   </main>
