@@ -74,11 +74,6 @@ body {
   border-radius: 8px;
   transition: background-color 0.3s;
 }
-.social-links-profile .social-links .social-link__image {
-  position: absolute;
-  opacity: 0;
-  left: 1em;
-}
 .social-links-profile .social-links .social-link__text {
   transition: color 0.3s;
 }

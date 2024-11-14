@@ -81,12 +81,6 @@ body {
 			border-radius: 8px;
 			transition: background-color 0.3s;
 
-			&__image {
-				position: absolute;
-				opacity: 0;
-				left: 1em;
-			}
-
 			&__text {
 				transition: color 0.3s;
 			}
@@ -127,4 +121,9 @@ body {
 
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+@media (width > 992px) {
+
+
 }
