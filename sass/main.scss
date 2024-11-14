@@ -34,7 +34,6 @@ body {
 	height: 100%;
 	max-width: 340px;
 	min-width: 270px;
-	// max-width: 300px;
 	background-color: $grey;
 	border-radius: 10px;
 
@@ -112,10 +111,6 @@ body {
 				outline: none;
 				color: $darkerGrey;
 				background-color: $green;
-			}
-
-			&:hover > {
-				opacity: 1;
 			}
 		}
 	}
